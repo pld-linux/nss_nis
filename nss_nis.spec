@@ -2,14 +2,14 @@ Summary:	NIS(YP) NSS glibc module
 Summary(es.UTF-8):	Módulo NIS(YP) NSS de glibc
 Summary(pl.UTF-8):	Moduł NIS(YP) NSS glibc
 Name:		nss_nis
-Version:	3.1
+Version:	3.4
 Release:	1
 Epoch:		6
 License:	LGPL v2.1+
 Group:		Base
 #Source0Download: https://github.com/thkukuk/libnss_nis/releases
 Source0:	https://github.com/thkukuk/libnss_nis/releases/download/v%{version}/libnss_nis-%{version}.tar.xz
-# Source0-md5:	2a96c9df26f19f7d61710621700a9996
+# Source0-md5:	efd975542786d3c6f3ee05e01418f4d7
 URL:		https://github.com/thkukuk/libnss_nis
 BuildRequires:	libnsl-devel
 BuildRequires:	libtirpc-devel
